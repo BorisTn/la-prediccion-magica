@@ -1,0 +1,45 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de Python (caché)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos de datos RAW (NO subir los originales)
+data/raw/
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuraciones de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de entorno
+.env
+.env.local
+
+# EXCEPCIONES: SÍ subir los datos procesados
+!data/processed/
+
+# SÍ subir el dashboard de Power BI
+!dashboard/*.pbip
+!dashboard/*.pbix
+
+# SÍ subir las imágenes
+!images/*.png
+!images/*.jpg
